@@ -1,5 +1,5 @@
-FROM alpine:3.7
+FROM scratch
 
 COPY /scripts /bin
 
-ENTRYPOINT ["/bin/start.sh"]
+ENTRYPOINT ["./app"]
